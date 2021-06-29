@@ -1,0 +1,5 @@
+console.log("Halo, dunia! ")
+console.log("Ciao, mondo! ")
+console.log("Hola, mundo! ")
+console.log("Hello, word")
+console.log("Apender mas idiomas")
