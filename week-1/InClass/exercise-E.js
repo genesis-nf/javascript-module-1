@@ -4,10 +4,10 @@
 
 let name ="Genesis";
 let lastName ="Fernandez";
-let greeting = 'Hello, my name is ${name} ${lastName}';
+let greeting = `Hello, my name is ${name} ${lastName}`;
 
 console.log(greeting);
-console.log('${name} ${lastName}');
+console.log(`${name} ${lastName}`);
 console.log(name + " " + lastName);
 
 let nmome ="capitales mas lindas";
