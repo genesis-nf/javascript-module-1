@@ -3,3 +3,4 @@ let variableTexto = "El tulipa es un género de plantas perennes y bulbosas pert
 console.log("variableTexto");
 console.log("variableTexto");
 console.log("variableTexto");
+
