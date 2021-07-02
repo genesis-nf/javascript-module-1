@@ -1,7 +1,7 @@
-function concat(objeto1, objeto2) {
-    const  materiales = "obtejo1 + objeto2";
-    return materiales;
-}
+function double(number) {
+    return number * 2;
+  }
 
-cons materiales=concat(Escaleras, Sillas)
-console.log(materiales);
+  const result = double(2);
+
+  console.log(result);
