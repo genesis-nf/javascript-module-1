@@ -1,3 +1,4 @@
+//Calcular los dias que llevas
 function getAgeInDays(age) {
   return age * 365;
 }
@@ -16,40 +17,27 @@ console.log(resultado);
 console.log(resultado2);
 console.log("")
 
-
+//CALCULAR EL PORCIENTO
 let numberOfMentors = 38;
-let numberOfStudents =112;
+let numberOfStudents = 112;
 let porcentajeS = Math.round(numberOfStudents * 100) / 150;
-let porcentajeM = Math.round(numberOfMentors * 100 ) / 150;
+let porcentajeM = Math.round(numberOfMentors * 100) / 150;
 
 
 console.log(" Percentage of students:  " + porcentajeS + "%");
 console.log(" Percentage of mentors: " + porcentajeM + "%");
 console.log("")
 
-//EJERCICIO-2
-    const saludo = "Fiesta sorpresa para ";
-    const saludoLocaleUpperCase = saludo.toLocaleUpperCase('en-US');
+//EJERCICIO. HACER LA ORACION EN MAYUSCULA
 
-    function getEdad(dateString) {  XMLDocument
-        let hoy = new Date()
-        let fechaNacimiento = new Date(dateString)
-        let edad = hoy.getFullYear() - fechaNacimiento.getFullYear()
-        let diferenciaMeses = hoy.getMonth() - fechaNacimiento.getMonth()
-        if (
-          diferenciaMeses < 0 ||
-          (diferenciaMeses === 0 && hoy.getDate() < fechaNacimiento.getDate())
-        ) {
-          edad--
-        }
-        return edad
-      }
+const saludo = "Fiesta sorpresa para ";
+const saludoLocaleUpperCase = saludo.toLocaleUpperCase('en-US');
 
-    var mentor1 = "Daniel!";
-    var mentor2 = "Irina!";
-    var mentor3 = "Mimi!";
-    var mentor4 = "Rob!";
-    var mentor5 = "Yohannes!";
+var mentor1 = "Daniel!";
+var mentor2 = "Irina!";
+var mentor3 = "Mimi!";
+var mentor4 = "Rob!";
+var mentor5 = "Yohannes!";
 
 
 console.log(saludoLocaleUpperCase + mentor1.toLocaleUpperCase('en-US'));
