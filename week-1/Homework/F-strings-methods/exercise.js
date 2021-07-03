@@ -1,5 +1,3 @@
-// Start by creating a variable `message`
-
 var message = "Los expertos advierten del incremento de los fenómenos extremos como el que vive Norteamérica vinculados al calentamiento global";
 var messageLength = message.length;
 

@@ -34,7 +34,7 @@ function add(num1, num2) {
 
 ## Expected result
 
-```
+``` 
 0.75
 ```
 
