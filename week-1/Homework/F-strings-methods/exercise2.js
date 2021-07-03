@@ -1,3 +1,16 @@
-const name = " Daniel  ";
+var name =  " Genesis ";
+console.log(name.trim());
 
-console.log(message);
+var name = "Genesis";
+var nameLowerCase = name.toLowerCase();
+console.log(nameLowerCase);
+
+const stringObj = new String('foo');
+console.log(stringObj);
+console.log(stringObj.toString());
+
+const greeting = "   Genesis Alexandra  "
+console.log(greeting.trimStart());
+
+const name1 = "   Genesis Alexandra   "
+console.log(name1.trimEnd());
