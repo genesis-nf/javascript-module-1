@@ -13,7 +13,7 @@ function getGrade(score) {
 
 You can also write this using `else if`:
 
-```js
+```js 
 function getGrade(score) {
   if (score >= 80) {
     return "A";

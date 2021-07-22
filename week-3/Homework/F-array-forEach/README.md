@@ -3,7 +3,7 @@ The `.forEach()` method is similar to `.map()` except it does not return a new a
 ### Side effects
 
 Generally, functions should take an input and return an output (based on that input), and not do anything else.
-
+ 
 When functions meet this criteria they can be called _pure functions_.
 
 A pure function does not:

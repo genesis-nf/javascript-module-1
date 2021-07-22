@@ -13,3 +13,12 @@ const daysOfWeek = [
   "Saturday",
   "Sunday",
 ];
+
+function days() {
+  if (daysOfWeek.starsWith('T')){
+    return "True"
+  }
+  return "False"
+}
+
+console.log(days);

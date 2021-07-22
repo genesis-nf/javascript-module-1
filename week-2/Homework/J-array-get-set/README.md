@@ -9,7 +9,7 @@ Flour
 > ingredients[1]
 Water
 > ingredients.length
-3
+3 
 ```
 
 Did you notice how we use `[0]` to get the first value? In programming we count starting at zero.
@@ -21,6 +21,6 @@ You can also **set** a value using bracket notation and an assignment operator (
 ```js
 var scores = [80, 41, 47];
 
-scores[2] = 29; // Change the last score
+scores[2] = 29; // Change the last score                             qsw 
 scores[3] = 51; // Add a new score
 ```

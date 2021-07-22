@@ -6,10 +6,10 @@
 
 */
 
-let n = 10;
+let n = 0;
 
-function sumTillNum(num){
-	//your code here
+while ( n < 10 ){
+	console.log("Sum from 0 to " + n + " is: " + n)
+	n++;
 }
 
-console.log("Sum from 0 to " + n + " is: " + sumTillNum(n));

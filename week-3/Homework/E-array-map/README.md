@@ -32,7 +32,7 @@ We can make this shorter by removing the function name. We can do this because w
 
 ```js
 var numbers = [1, 2, 3];
-var numbersDoubled = numbers.map(function (number) {
+var numbersDoubled = numbers.map(function double(number) {
   return number * 2;
 });
 ```
